@@ -1,7 +1,5 @@
 # vscode-metadata-enrichment
 
-> **RETIRED**: This extension has been unpublished from the VS Code Marketplace and Open VSX Registry. This repository is archived and read-only. IDE-GUI enrichment is superseded by the portable Skill target.
-
 [![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](https://opensource.org/license/apache-2-0)
 
 This extension provides the capability to enrich metadata directly from your Visual Studio Code via the command palette or within the context menu.
