@@ -15,13 +15,12 @@
  */
 
 import { type OutputChannel, window } from 'vscode';
-import { getMessage } from './localization';
 
 let channel: OutputChannel | undefined;
 
 export function getOutputChannel(): OutputChannel {
   if (!channel) {
-    channel = window.createOutputChannel(getMessage('output.channel.name'));
+    channel = window.createOutputChannel('Salesforce Metadata Enrichment');
   }
   return channel;
 }
