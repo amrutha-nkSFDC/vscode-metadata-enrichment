@@ -14,12 +14,10 @@
  * limitations under the License.
  */
 
-import { disposeOutputChannel } from './utils/outputChannel';
-
 export function activate(): void {
   // Extension retired - all commands removed per W-23123162
 }
 
 export function deactivate(): void {
-  disposeOutputChannel();
+  // No cleanup needed - extension is inert
 }

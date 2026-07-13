@@ -54,7 +54,7 @@
     "prettier-check": "prettier --check .",
     "commitlint": "commitlint",
     "clean": "tsc --build --clean && rm -rf out dist node_modules *.vsix",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "prepare": "husky"
   }
 }
